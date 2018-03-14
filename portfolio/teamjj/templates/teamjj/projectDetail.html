@@ -1,0 +1,10 @@
+<h1>{{ project.project_name }}</h1>
+<hr>
+<p>{{ project.project_text }}</p>
+<p>{{ project.project_link }}</p>
+<p>{{ project.pub_date }}</p>
+<ul>
+{% for x in project_contributer.all %}
+    <li>{{ x.user_name }}</li>
+{% endfor %}
+</ul>
