@@ -6,4 +6,7 @@
 
 @Hero Programmer
 @Oscal Art Director
-@Hama Director
+
+---
+
+@Hama Former Director
